@@ -37,7 +37,8 @@ body {
   justify-content: flex-start;
 }
 
-/* Colorful Button Styles */
+
+/* 1. Colorful Button Styles */
 .colorful-btn {
   background: linear-gradient(45deg, tomato, mediumturquoise);
   color: white;
@@ -48,6 +49,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   outline: none;
+
 }
 
 .colorful-btn:hover {
@@ -58,12 +60,12 @@ body {
 
 
 
-/* Expanding Search Bar Styles */
+/* 2. Expanding Search Bar Style */
 .expanding-search {
   width: 180px;
   height: 42px;
   padding: 0 20px;
-  border: 2px solid #ddd;
+  border: 3px solid grey;
   border-radius: 25px;
   font-size: 15px;
   outline: none;
@@ -88,10 +90,7 @@ body {
 
 
 
-
-
-
-/* CodePen Tile Styles */
+/* 3. CodePen Tile Style */
 .codepen-tile {
   position: relative;
   width: 300px;
