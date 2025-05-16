@@ -2,12 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const todoInput = document.getElementById('todo-input');
     const addBtn = document.getElementById('add-btn');
     const todoList = document.getElementById('todo-list');
-    
+
     let todos = JSON.parse(localStorage.getItem('todos')) || [];
     
     function renderTodos() {
         todoList.innerHTML = '';
-        
         todos.forEach((todo, index) => {
             const li = document.createElement('li');
             li.className = 'todo-item';

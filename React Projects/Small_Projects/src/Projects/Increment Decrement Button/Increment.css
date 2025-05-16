@@ -1,0 +1,116 @@
+/* Main wrapper to center everything */
+.counter-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  min-width: 210vh;
+  padding: 20px;
+  /* background-color: #f5f7fa; */
+}
+
+/* Container styling */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+}
+
+/* Count display styling */
+.count-display {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+  padding: 20px 40px;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.05);
+  min-width: 80px;
+  text-align: center;
+}
+
+.step{
+  width: 150px;
+  height: 50px;
+}
+
+.labelStep{
+  color: black;
+  font-weight: bold;
+}
+/* Button row styling */
+.button-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Base button styling */
+.buttonStyle {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 120px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Button hover/active states */
+.buttonStyle:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.buttonStyle:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual button colors */
+.increment {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+}
+
+.decrement {
+  background: linear-gradient(135deg, #F44336, #C62828);
+}
+
+.reset {
+  background: linear-gradient(135deg, #2196F3, #1565C0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .counter-container {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+  
+  .button-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .buttonStyle {
+    width: 100%;
+  }
+}

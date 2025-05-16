@@ -1,0 +1,60 @@
+/* Toggle Button */
+.toggle-parent {
+    width: 1050px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .toggle-container {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: 7px solid rgb(19, 19, 19);
+    position: relative;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .toggle-container.on {
+    background-color: #4caf50;
+  }
+  
+  .toggle-container.off {
+    background-color: gray;
+  }
+  
+  .toggle-switch {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid rgb(35, 10, 195);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-container.on .toggle-switch {
+    transform: translateX(95px);
+    background-color: black;
+  }
+  
+  .toggle-container.off .toggle-switch {
+    transform: translateX(0);
+    background-color: black;
+  }
+  
+  .toggle-text {
+    user-select: none;
+    font-size: 12px;
+  }
+  
