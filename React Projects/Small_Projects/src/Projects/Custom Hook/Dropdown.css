@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.dropdown-container{
+    border: 3px solid grey;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.dropdown{
+    position: relative;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    
+}
