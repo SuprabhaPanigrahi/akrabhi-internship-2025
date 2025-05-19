@@ -366,7 +366,7 @@ body {
 
 
 
-/* Indian Flag Styles */
+/* 8. Indian Flag Styles */
 .indian-flag {
   position: relative;
   width: 250px;
@@ -395,7 +395,7 @@ body {
 
 .flag-pole {
   position: absolute;
-  left: -50px;
+  left: -10px;
   top: 0;
   width: 10px;
   height: 100%;
