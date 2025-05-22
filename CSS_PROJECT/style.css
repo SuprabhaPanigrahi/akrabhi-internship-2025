@@ -523,7 +523,7 @@ body {
   border-radius: 30px;
   position: relative;
   cursor: pointer;
-  overflow: hidden; /* Keeps the round button contained */
+  overflow: hidden;
 }
 
 .round {
