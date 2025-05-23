@@ -11,13 +11,14 @@
 // import { SmallExample } from "./Projects/Custom Hook/SmallExample";
 // import { MainContainer } from "./Projects/Styled Component/MainContainer"
 // import { ReduxWrapper } from './Projects/Redux/Components/ReduxWrapper';
-
+import { MovieWrapper } from './Projects/ReduxPractice/components/MovieWrapper';
 
 
 const App = () => {
 
   return (
     <>
+      <MovieWrapper/>
       {/* <ReduxWrapper /> */}
       {/* <MainContainer/> */}
       {/* <SmallExample/> */}

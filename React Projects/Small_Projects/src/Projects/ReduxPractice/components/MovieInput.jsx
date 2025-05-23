@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addMovie } from '../features/moviesSlice';
+import { addMovie } from '@/Projects/ReduxPractice/features/moviesSlice';
 
 export default function MovieInput() {
   const [movie, setMovie] = useState('');

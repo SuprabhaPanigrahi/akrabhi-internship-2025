@@ -1,10 +1,10 @@
-import MovieInput from './projects/ReduxPractice/components/MovieInput';
-import MovieList from './projects/ReduxPractice/components/MovieList';
+import MovieInput from './MovieInput';
+import MovieList from './/MovieList';
 
-export default function App() {
+export const MovieUi = () => {
   return (
     <div>
-      <h1>Favorite Movies (Redux Practice)</h1>
+      <h1>Favorite Movies</h1>
       <MovieInput />
       <MovieList />
     </div>
