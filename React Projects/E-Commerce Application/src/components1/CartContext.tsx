@@ -4,7 +4,7 @@ import type { AppDispatch, RootState } from '@/redux/store';
 import { addToCart, removeFromCart, updateQuantity, clearCart } from '@/redux/cartSlice';
 import type { Product, CartItem } from '@/components1/Auth/types';
 
-interface CartContextType {
+interface CartContextType { //there is no = used in interface
   cartItems: CartItem[];
   addToCart: (product: Product) => void;
   removeFromCart: (productId: number) => void;

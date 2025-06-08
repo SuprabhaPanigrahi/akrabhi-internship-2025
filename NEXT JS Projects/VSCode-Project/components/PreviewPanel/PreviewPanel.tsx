@@ -3,7 +3,7 @@ import { FileItem } from '@/types/files';
 import * as S from './PreviewPanel.style';  
 
 type PreviewPanelProps = {  
-  file: FileItem | null;  
+  file: FileItem | null;  //file can be of type FileItem or null
 };  
 
 export default function PreviewPanel({ file }: PreviewPanelProps) {  
